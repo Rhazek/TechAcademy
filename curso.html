@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning</title>
+    <link rel="stylesheet" href="/css/curso.css">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="back-button">←</a>
+        <h1>Machine Learning</h1>
+    </header>
+
+    <section class="course-header">
+        <img src="/assets/images/machine-learning-img.png" alt="Machine Learning">
+        <div class="course-info">
+            <h2>Machine Learning</h2>
+            <p>10.5k Alunos</p>
+        </div>
+    </section>
+
+    <nav class="tab-nav">
+        <button class="tablink active" onclick="openTab(event, 'visao-geral')">Visão Geral</button>
+        <button class="tablink" onclick="openTab(event, 'leituras')">Leituras</button>
+        <button class="tablink" onclick="openTab(event, 'cursos-similares')">Cursos Similares</button>
+    </nav>
+
+    <div id="visao-geral" class="tabcontent active-tab">
+        <div class="course-details">
+            <p><span class="icon">🕒</span> 6 Horas</p>
+            <p><span class="icon">📜</span> Certificado de Conclusão</p>
+            <p><span class="icon">👶</span> Novato</p>
+        </div>
+        <div class="course-description">
+            <h3>O que você aprenderá?</h3>
+            <p>O programa básico de aprendizado Machine foi projetado para oferecer uma base sólida e habilidades prontas para o trabalho para engenheiros de ML. Leia mais...</p>
+        </div>
+        <button class="start-button">Começar a aprender</button>
+    </div>
+
+    <div id="leituras" class="tabcontent">
+        <div class="lesson">
+            <h3>Lição 1</h3>
+            <p>Introdução</p>
+        </div>
+        <div class="lesson">
+            <h3>Lição 2</h3>
+            <p>Processamento de Dados</p>
+            <ul style="list-style: none;">
+                <li>Subaula 1</li>
+                <li>Subaula 2</li>
+                <li>Subaula 3</li>
+                <li>Subaula 4</li>
+            </ul>
+        </div>
+        <div class="lesson">
+            <h3>Lição 3</h3>
+            <p>Mineração de texto</p>
+        </div>
+        <div class="lesson">
+            <h3>Lição 4</h3>
+            <p>Projetos práticos</p>
+        </div>
+    </div>
+
+    <div id="cursos-similares" class="tabcontent">
+        <p>Lista de cursos semelhantes será exibida aqui.</p>
+    </div>
+
+    <script src="/js/curso.js"></script>
+</body>
+</html>

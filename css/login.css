@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+.logo img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--cor-borda-input);
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.show-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    background: url('/assets/eye-icon.svg') no-repeat center center;
+    background-size: cover;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.remember input {
+    margin-right: 10px;
+}
+
+.remember label {
+    font-size: 12px;
+    color: var(--cor-texto);
+}
+
+.alternative {
+    margin-top: 20px;
+}
+
+.google-login {
+    border: 1px solid var(--cor-borda-input);
+    padding: 10px;
+    border-radius: 50%;
+    background-color: var(--cor-branco);
+    cursor: pointer;
+}
+
+.google-login img {
+    width: 20px;
+}
+
+.register-link {
+    margin-top: 20px;
+    font-size: 12px;
+    color: var(--cor-principal);
+}
+
+.register-link a {
+    color: var(--cor-principal);
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}

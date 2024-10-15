@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f6fa;
+    color: #333;
+    padding-bottom: 70px; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 20px;
+}
+
+.course-list {
+    padding: 20px;
+}
+
+.course-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.course-desc{
+    display: flex;
+    gap: 40px;
+}
+
+.course-info {
+    margin-bottom: 10px;
+}
+
+.course-info h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.course-info p {
+    font-size: 11px;
+    color: #666;
+}
+
+.time-left {
+    font-size: 13px;
+    font-weight: 700;
+    color: #666;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.time-left img {
+    width: 12px;
+    margin-right: 5px;
+}
+
+.progress {
+    display: flex;
+    top: 20px;
+    right: 20px;
+    align-items: center;
+}
+
+.progress-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #e5f8e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #28a745;
+    font-weight: bold;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.progress-circle span {
+    font-size: 14px;
+}
+
+.start-button {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 0;
+    background-color: white;
+    color: #006bff;
+    font-weight: bold;
+    text-decoration: none;
+    border-top: 1px solid #ddd;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    text-decoration: none;
+}
+
+footer a img {
+    width: 24px;
+    display: block;
+    margin: 0 auto 5px;
+}
+
+footer a.active {
+    color: #006bff;
+}
+
+footer a.active img {
+    filter: invert(45%) sepia(99%) saturate(629%) hue-rotate(184deg) brightness(97%) contrast(104%);
+}

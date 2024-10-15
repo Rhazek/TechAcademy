@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Academy - Login</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="/assets/logo.svg" alt="Tech Academy Logo">
+        </div>
+        <h1>Começando!</h1>
+        <p>Entre com sua conta para continuar com seus cursos</p>
+
+        <form action="#">
+            <div class="input-group">
+                <input type="email" placeholder="&#xf0e0; Email" required style="font-family: FontAwesome;">
+            </div>
+            <div class="input-group">
+                <input type="password" placeholder="&#xf023; Senha" required style="font-family: FontAwesome;">
+                <span class="show-password"><i class="fa-solid fa-eye-low-vision"></i></span>
+            </div>
+            <div class="remember">
+                <input type="checkbox" id="remember" required>
+                <label for="remember">Lembrar-me</label>
+            </div>
+            <button type="submit" id="login-btn" class="btn">Login</button>
+        </form>
+
+        <div class="alternative">
+            <p>Ou continuar Com</p>
+            <button class="google-login">
+                <img src="/assets/google-icon.svg" alt="Google">
+            </button>
+        </div>
+
+        <div class="register-link">
+            <p>Ainda não tem conta? <strong><a href="#">Registre-se</a></strong></p>
+        </div>
+    </div>
+</body>
+</html>

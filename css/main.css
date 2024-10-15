@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --fonte-primaria: "Jost", sans-serif;
+    --fonte-secundaria: "Roboto", sans-serif;
+    --cor-principal: #006BFF;
+    --cor-secundaria: #1e2b5e;
+    --cor-texto: #666;
+    --cor-borda-input: #ddd;
+    --cor-fundo: #f4f6fa;
+    --cor-branco: #fff;
+    --cor-hover-btn: #0056b3;
+}
+
+body {
+    font-family: var(--fonte-secundaria);
+    background-color: var(--cor-fundo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: var(--cor-branco);
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+h1 {
+    color: var(--cor-secundaria);
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: var(--fonte-primaria);
+}
+
+p {
+    color: var(--cor-texto);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.btn {
+    background-color: var(--cor-principal);
+    color: var(--cor-branco);
+    border: none;
+    padding: 12px;
+    border-radius: 30px;
+    width: 100%;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: var(--cor-hover-btn);
+}
+
+.btn .icon {
+    margin-left: 8px;
+}

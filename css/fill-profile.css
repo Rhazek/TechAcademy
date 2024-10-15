@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-primaria: #006BFF;
+    --cor-fundo: #f4f6fa;
+    --cor-secundaria: #1e2b5e;
+    --cor-borda-input: #ddd;
+    --cor-branco: #fff;
+    --cor-texto: #666;
+    --cor-btn-hover: #0056b3;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--cor-fundo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: var(--cor-branco);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 18px;
+    color: var(--cor-secundaria);
+    margin: 0;
+    flex: 1;
+    text-align: center;
+}
+
+.back-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: var(--cor-secundaria);
+    margin-right: auto;
+}
+
+.profile-picture {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--cor-borda-input);
+    border-radius: 5px;
+    font-size: 14px;
+    color: var(--cor-texto);
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: var(--cor-texto);
+}
+
+.phone-group {
+    display: flex;
+    align-items: center;
+}
+
+.phone-group .flag {
+    margin-right: 10px;
+}
+
+.phone-group img {
+    width: 24px;
+    height: 24px;
+}
+
+.btn {
+    background-color: var(--cor-primaria);
+    color: var(--cor-branco);
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: var(--cor-btn-hover);
+}
+
+.arrow {
+    margin-left: 10px;
+}
